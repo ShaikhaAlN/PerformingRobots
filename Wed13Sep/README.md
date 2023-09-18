@@ -6,21 +6,31 @@
 - the second one is modeled after the venus fly trap plant from the super mario games, and we were hoping to also mimick the natural tendency for it to close upon detecting a prey by using a pressure (or light) sensor. This design had a pentagon shape.
 - ultimately, we decided to go with the second design as to challenge ourselves with the complex and comical shape. Although we did not get a pentagon-shaped base, we were able to get a big enough rectangular base that would allow us to integrate the tube design and possible surrounding grass elements (to mimick the 2d space the games are set in).
 ### Base Process
-
-
-![dancingrobot6](https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/a919b2f9-c23f-4403-8da4-77714349ca48)
-![dancingrobot5](https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/8fef6ae2-f477-401c-ad21-8197e48c5be8)
-![dancingrobot4](https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/d3cd59b1-6ef5-4bf9-af17-78b7845ca413)
-![dancingrobot3](https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/53be1bd2-a65a-4ecd-9e2f-fa1ffe4be47f)
-![dancingrobot2](https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/a2f36419-4db8-4d9e-83f9-15b65f2cadce)
-![dancingrobot1](https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/d00a1cdc-c394-4267-b4ae-9c7248dc4794)
-
-
 - After being given the rectangular base, we started sketching out where all the parts would go. we made sure to leave suffiecient space between all the different components.
+
+![dancingrobot1](https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/9ae42b9b-f3b8-4e72-bcc1-9490376f01f6)
+
+
 - to attach the motors to the base, we drilled holes for the motor brackets. instead of 4, we found a way to only drill two holes diagonally so that the motor would not budge.
+
+![dancingrobot2](https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/710b4971-9cd4-4fe2-8b31-ca34a15dea80)
+
+
 - we then attached the motor by again screwing bolts between the motor and bracket.
+
+![dancingrobot4](https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/9bc611b1-8ebb-4499-959e-392ba5df740a)
+
+
 - we then soldered the wires connecting the motors to the arduino so that they would go all the way around.
+
+![dancingrobot3](https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/6b933789-c100-416b-aed4-12b7ea044ac9)
+
+
 - we ziptied the H bridge and placed the wheels on the motor by using bolts and metal hubs. we made sure to screw it very tightly so that any movement would be due to the code as opposed to a loosely attached wheel
+
+![dancingrobot6](https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/57803e9e-3ae1-455d-99a8-0a732f79cde7)
+
+
 - after making sure the wheels were both moving according to our code (see below):
 
 ```
@@ -80,5 +90,8 @@ void loop() {
 ```
 
 - we then ziptied the battery in place, and gluegunned the arduino to the base.
+- here is the full video of the dancing robot:
+
+
 
 
