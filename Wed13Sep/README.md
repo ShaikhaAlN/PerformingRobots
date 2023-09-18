@@ -91,7 +91,7 @@ void loop() {
 
 - we then ziptied the battery in place, and gluegunned the arduino to the base.
 - here is the full video of the dancing robot:
-
+https://drive.google.com/file/d/17pH_GG8scwNefn7xgdYzC2ePdxU610YT/view?usp=sharing
 
 
 
