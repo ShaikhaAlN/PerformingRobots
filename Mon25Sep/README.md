@@ -4,5 +4,5 @@ Have you ever wondered what dance truly is? Dance can encompass a wide range of 
 
 At the outset, our robot is marked by timidity, doubting its own movements and capabilities. It pauses frequently, carefully reconsidering each step before proceeding. But as the music envelops it, something remarkable occurs. The robot begins to sway, gradually gaining confidence with each graceful movement. It dares to venture into more intricate turns, pushing its mechanical boundaries further.
 
-By the performance's grand finale, the robot has transformed. Its once-shy demeanor has given way to an exuberant display of emotion. In a whirlwind of twirls and spins, the robot conveys a profound sense of excitement and happiness. The robot proves that even in the world of rigid mechanics, there exists a capacity for the most human of expressions – the joy of dance.
+By the performance's grand finale, the robot has transformed. Its once-shy demeanor has given way to an ecstatic display of emotion. In a whirlwind of twirls and spins, the robot conveys a profound sense of excitement and happiness. The robot proves that even in the world of rigid mechanics, there exists a capacity for the most human of expressions – the joy of dance.
 
