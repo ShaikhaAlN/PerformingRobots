@@ -6,6 +6,8 @@ At the outset, our robot is marked by timidity, doubting its own movements and c
 
 By the performance's grand finale, the robot has transformed. Its once-shy demeanor has given way to an ecstatic display of emotion. In a whirlwind of twirls and spins, the robot conveys a profound sense of excitement and happiness. The robot proves that even in the world of rigid mechanics, there exists a capacity for the most human of expressions – the joy of dance.
 
+[Video Demo]([https://pages.github.com/](https://drive.google.com/file/d/1zHmxSSfCgfex5yt9SOy2_QBbbpjeWA_5/view?usp=sharing)).
+
 ```
 void setup() {
   // Pins 2 and 3 are connected to In1 and In2 respectively
