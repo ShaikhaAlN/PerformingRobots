@@ -5,6 +5,7 @@
 - Once we got the code running, we twisted and pushed on the RC knob and trigger to see if there were any changes in the seriel monitor.
 - Once we confirmed that we could reliably control the numbers being displayed for all four radio channels, we connected the H-bridge back onto the arduino board, this time using pins 5, 6, and 10, 11 as these were free.
 - We then modified [the code used previously](https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/arduinoSketches/hobbyRC/minimalMoreChannels/minimalMoreChannels.ino) to introduce variables that represent turning left and right, and going forward or backward. the variables just controlled the motors through high/low values based on what we've learned from the previous homework assignments.
+[Video demo] (https://drive.google.com/file/d/1w8YngO4UvmPTCI5fD_FNyaO5eG2fgP0n/view?usp=sharing)
 - We deciphered the values for each of these variables in the void loop() function using the following code as a baseline:
 
 ```
