@@ -5,7 +5,6 @@
 - Once we got the code running, we twisted and pushed on the RC knob and trigger to see if there were any changes in the seriel monitor.
 - Once we confirmed that we could reliably control the numbers being displayed for all four radio channels, we connected the H-bridge back onto the arduino board, this time using pins 5, 6, and 10, 11 as these were free.
 - We then modified [the code used previously](https://github.com/michaelshiloh/resourcesForClasses/blob/master/src/arduinoSketches/hobbyRC/minimalMoreChannels/minimalMoreChannels.ino) to introduce variables that represent turning left and right, and going forward or backward. the variables just controlled the motors through high/low values based on what we've learned from the previous homework assignments.
-[Video demo] (https://drive.google.com/file/d/1w8YngO4UvmPTCI5fD_FNyaO5eG2fgP0n/view?usp=sharing)
 - We deciphered the values for each of these variables in the void loop() function using the following code as a baseline:
 
 ```
@@ -20,7 +19,7 @@ if (rc_values[RC_CH2] > 18) turnRight();
 
 - Through trial and error, we would note down the baseline value of the RC control, and then move the knob or trigger to gauge how we wanted the robot to react. We decided that the trigger (channel 2) would be forward and backwards and the knob (channel 1) would be left and right.
 - Once we figured out those values, we integrated them into the function and tested out the robot's movement. below is the final code along with a link to the video demo:
-- [Video link]()
+- [Video link](https://drive.google.com/file/d/1w8YngO4UvmPTCI5fD_FNyaO5eG2fgP0n/view?usp=sharing)
 
 ```
 // install this library from the library manager
