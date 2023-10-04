@@ -34,10 +34,17 @@ if (rc_values[RC_CH2] > 18) turnRight();
 #define RC_CH3  3
 #define RC_CH4  4
 
+// pin usage
+//radio
 #define RC_CH1_PIN  8
 #define RC_CH2_PIN  7
 #define RC_CH3_PIN  4
 #define RC_CH4_PIN  2
+// motor drive
+const int MOTOR1_PIN1 = 6;
+const int MOTOE1_PIN2 = 5;
+const int MOTOR2_PIN1 = 3;
+const int MOTOR2_PIN2 = 9;
 
 uint16_t rc_values[RC_NUM_CHANNELS];
 uint32_t rc_start[RC_NUM_CHANNELS];
@@ -72,38 +79,38 @@ void calc_ch4() {
 }
 
 void reverse() {
-  digitalWrite(5, LOW);
-  digitalWrite(6, HIGH);
-  digitalWrite(10, LOW);
-  digitalWrite(11, HIGH);
+  digitalWrite(MOTOR1_PIN1, LOW);
+  digitalWrite(MOTOR1_PIN2, HIGH);
+  digitalWrite(MOTOR2_PIN1, LOW);
+  digitalWrite(MOTOR2_PIN2, HIGH);
 }
 
 void forward() {
-  digitalWrite(5, HIGH);
-  digitalWrite(6, LOW);
-  digitalWrite(10, HIGH);
-  digitalWrite(11, LOW);
+  digitalWrite(MOTOR1_PIN1, HIGH);
+  digitalWrite(MOTOR1_PIN2, LOW);
+  digitalWrite(MOTOR2_PIN1, HIGH);
+  digitalWrite(MOTOR2_PIN2, LOW);
 }
 
 void turnRight() {
-  digitalWrite(5, HIGH);
-  digitalWrite(6, LOW);
-  digitalWrite(10, LOW);
-  digitalWrite(11, HIGH);
+  digitalWrite(MOTOR1_PIN1, HIGH);
+  digitalWrite(MOTOR1_PIN2, LOW);
+  digitalWrite(MOTOR2_PIN1, LOW);
+  digitalWrite(MOTOR2_PIN2, HIGH);
 }
 
 void turnLeft() {
-  digitalWrite(5, LOW);
-  digitalWrite(6, HIGH);
-  digitalWrite(10, HIGH);
-  digitalWrite(11, LOW);
+  digitalWrite(MOTOR1_PIN1, LOW);
+  digitalWrite(MOTOR1_PIN2, HIGH);
+  digitalWrite(MOTOR2_PIN1, HIGH);
+  digitalWrite(MOTOR2_PIN2, LOW);
 }
 
 void stop() {
-  digitalWrite(5, LOW);
-  digitalWrite(6, LOW);
-  digitalWrite(10, LOW);
-  digitalWrite(11, LOW);
+  digitalWrite(MOTOR1_PIN1, LOW);
+  digitalWrite(MOTOR1_PIN2, LOW);
+  digitalWrite(MOTOR2_PIN1, LOW);
+  digitalWrite(MOTOR2_PIN2, LOW);
 }
 
 void setup() {
@@ -132,11 +139,11 @@ void loop() {
   // use whichever channel is the trigger to control forward and reverse movement
 if (rc_values[RC_CH2] < 1500) reverse();
 if (rc_values[RC_CH2] > 1550) forward();
-if ((rc_values[RC_CH2] < 1520) && (rc_values[RC_CH2] > 1500)) stop();
+if ((rc_values[RC_CH2] < 1545) && (rc_values[RC_CH2] > 1500)) stop();
 
 // use whichever channel is the steering wheel to turn:
- if (rc_values[RC_CH1] > 1535) turnRight();
+ if (rc_values[RC_CH1] > 1400) turnRight();
 
- if (rc_values[RC_CH1] < 1520) turnLeft();
+ if (rc_values[RC_CH1] < 1390) turnLeft();
 }
 ```
