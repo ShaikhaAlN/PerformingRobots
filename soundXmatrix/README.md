@@ -29,7 +29,7 @@ we were able to sync the visual tracks with the 8-second tracks. The circle and 
 delay(2650);  // Display for 2.65 seconds
 ```
 
-Here is the [link]() to the video showcasing the full animation and sound
+Here is the [link](https://drive.google.com/file/d/1KJtta6wOBliOEjJkawJlqGtaNAs1xMzT/view?usp=sharing) to the video showcasing the full animation and sound
 
 Here is the full code:
 
