@@ -39,4 +39,5 @@ Robots start to reject some orders they are given and “lazy” out instead; co
 ### Scene 3:
 Humans try to re-program robots to do their repetitive orders again and this time the robots reject every order fully. 
 
-### Purpose: To bring into question that if something literally takes after you, isn't it bound to have the rights that you have too?
+### Purpose: 
+To bring into question that if something literally takes after you, isn't it bound to have the rights that you have too?
