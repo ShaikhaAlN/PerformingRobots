@@ -7,8 +7,11 @@ Originating in the late 1980s, ARW established itself by crafting metal and robo
 <p>MacMurtrie's approach to robotic art is holistic, involving collaboration and coordination. While he envisions the concepts, the realization of his ideas is a collective effort, highlighting the significance of teamwork in the age of dramatic digital art. Moreover, the synergy between the collective’s diverse range of skills exemplifies the profound interdependence between art and technology. (“A brief lunch…” 2016).</p>
 <p>As I contemplate the categorization of ARW's creations, MacMurtrie's suggestion that they are more accurately described as "machines" rather than robots due to their limited interaction with their surroundings (“A brief lunch…” 2016) adds complexity to the interpretation of robotic art. I had assumed prior that the terms were interchangeable, but MacMurtrie's hesitance suggests a deeper anthropomorphic significance to the term "robot". He appears to define it as an entity capable of directly affecting its surroundings. However, even when applying this definition, both of his previously mentioned works exhibit interactive qualities. "Border Crossers" transcends physical borders through movement, while the robots in "The Robotic Church" engage with surrounding instruments and their own bodies to create sound.</p>
 <p>In essence, Chico MacMurtrie and ARW exemplify more than a merger of art and technology. Their work invites introspection on communication and societal constructs. As robotic art paves the way for the future, it becomes evident that its potential transcends mere entertainment and seeps into more meaningful dialogue.</p>
- 
+<p>
+
 ## References
+
+</p>
 <p>“A brief lunch with the Amorphic Robot Works in Munich.” 2016. Artmagazin. November 17, 2016. https://www.artmagazin.hu/articles/in_english/6f0c1358cf32f9bf1413dcd3662f3dd0.<br>
 ARW, Chico MacMurtrie /, dir. 2014. THE ROBOTIC CHURCH, 2014, New York. https://vimeo.com/114296519.<br>
 ———, dir. 2016. Border Crossers. https://vimeo.com/159093125.<br>
