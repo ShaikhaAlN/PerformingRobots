@@ -9,6 +9,4 @@ In conclusion, coming back to the real world, ethical concerns about robots, esp
 ## Citations
 [^1]: “‘Wall-E’ Reflection: When Robots Are Human and Humans Are Robots – Ambiguously Human.” Accessed November 19, 2023. https://sites.duke.edu/ambiguouslyhuman/2016/03/09/wall-e-reflection/. 
 [^2]: Babela, Brittany. “WALL-E: A Robot’s Duty?” Film Obsessive, May 16, 2019. https://filmobsessive.com/film/film-analysis/wall-e-a-robots-duty/.
-[^3]: WritingBros. “Wall-E Movie Review and Analysis of the Main Message” Accessed November 19, 2023. https://writingbros.com/essay-examples/wall-e-movie-summary-and-review-of-its-message/. 
-[^4]: “6 Main Ethical Concerns of Service Robots and Human Interaction.” Accessed November 19, 2023. https://hospitalityinsights.ehl.edu/service-robots-and-ethics.
-![image](https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/86c4ce37-adaa-462c-8287-93794b4ca8fd)
+[^3]: WritingBros. “Wall-E Movie Review and Analysis of the Main Message” Accessed November 19, 2023. https://writingbros.com/essay-examples/wall-e-movie-summary-and-review-of-its-message/.
