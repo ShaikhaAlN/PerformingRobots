@@ -1,1 +1,11 @@
 # Process
+- movement
+- script and character
+- character design
+- mechanics
+-- crow beak
+-- crow neck
+-- head
+-- neopixels
+- costume
+- issues and troubleshooting
