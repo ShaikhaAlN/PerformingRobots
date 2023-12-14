@@ -45,11 +45,11 @@
 - we coded these the same we we created the initial standard eyes; we manipulated the shapes frame by frame, and in the case of the red eyes, we changed the color of the pupils, and for the eyeroll we changed the position of the pupil and extended the duration of the delay.
 - to ensure that the animation would work on both eyes exact, we did not daisy-chain the two matrices, but instead treated them like two seperate units in the code. We did this by labelling them "matrix1" and "matrix2" and just duplicating the code. This was much easier than trying to work with the coordinates of two combined matrices.
 #### sound
-- At first, we thought of recording the voice of Emma-Lou ourselves, but then decided against it for a number of reasons. We felt that the audio may contain a lot of noise, would be inconcistent in overall volume, and would be difficult to make clear and legible. So, we instead used the AI text to speech software ElevenLabs. We wanted the voice to sound enthusiaistic, so we went with a young adult with an american accent, and fed all the lines into the software with exagerated punctuation marks to accentuate some of the dialogue. After we had the sounds, 
+- At first, we thought of recording the voice of Emma-Lou ourselves, but then decided against it for a number of reasons. We felt that the audio may contain a lot of noise, would be inconcistent in overall volume, and would be difficult to make clear and legible. So, we instead used the AI text to speech software ElevenLabs. We wanted the voice to sound enthusiaistic, so we went with a young adult with an american accent, and fed all the lines into the software with exagerated punctuation marks to accentuate some of the dialogue. After we had the sounds, we created a case for every line (leaving us with 9 in total) and imbedded the sounds alongside the codes for the neopixels and servo motors. We were able to sync up the movements and sounds perfectly through the delay() function, which then allowed us to consolidate the amount of cases we had. 
 ## costume
+- based on our mechanics and character design, we decided that the main parts of the costuming can be made out of fabric and existing materials we had. We used a flannel we already had for the top Emma-Lou is wearing, and we contacted the head of the textile studio, so that we could burrow some jean fabric for the skirt. We then also gained access to the costume store
 ## issues and troubleshooting
 #### Wheel screws and base extensions
-#### Sound issues
 #### crow beak and neck
 - After testing it out, we realized that the paper clip kept moving around, causing the whole upper beak to be misaligned with the  
 #### movement speed
