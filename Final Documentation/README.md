@@ -31,14 +31,20 @@
 ## mechanics
 - Since our robot is supposed to represent a scarecrow, which in reality lacks much movement, we felt that it was appropriate to animate and bring the crow to life instead, serving as both a funny and entertaining gag for the audience, but also as an ironic friend to a scarecrow who is meant to scare off crows.
 #### crow beak
-- For the crows beak, we used a small servo motor and followed a youtube tutorial on how to create a mouth that opend and closes. We used a paper clip and bent it into an s shape, with one side attaching to the servo motor, and the other inside the upper part of the crow's beak. we kept having to adjust the opening of the head to allow for the crow's beak to move in a very asnimated way that would show clearly from afar for the audience. 
+- For the crows beak, we used a small servo motor and followed a youtube tutorial on how to create a mouth that opend and closes. We used a paper clip and bent it into an s shape, with one side attaching to the servo motor, and the other inside the upper part of the crow's beak. we kept having to adjust the opening of the head to allow for the crow's beak to move in a very asnimated way that would show clearly from afar for the audience.
 #### crow neck
+- For the neck, we installed 1 piece of cardboard in the shape of a donut right at the top of the neck in order to contint the servo motor but have the turning piece peak out of the hole.
+- we then attached this turning piece to the head using glue gun. We had to position it right in the middle, and we did this by checking the coordinates of the full range of movement, find the mid point, and then glue the head on. 
 #### head
+- for the robots head, we wanted something lightweight as anything heavier would weigh on the narrow stick and cause imbalance. So, we felt cardboard was a better material to work with than plywood.
+- We measured the appropriate dimensions of a rectangular box that would fit perfectly through the stick, and looked proportional to the arms. We then cut out two squares where the neopixel eyes would go, and after we made sure everything fit, we stuck all the sides together with the hot glue gun, and cut out a door from the back so that we could easily access the neopixels. We also kept the hole hole on the bottom of the head wider so that we could install a servo motor at the top that would allow the head to move slightly from left to right. Installing this was difficult as we stuck the servo motor to the stick and then put the cardboard head on top, so we werent able to see how well it lined up on the inside. However, after a few tries (and torn pieces of cardboard) later, we lined it up well and made sure to not move the servo motor dramatically as to not tear the hot glue.
 #### neopixels
+- before using both neopixels, we first tested out a few designs on one neopixel matrix, experimenting with the shapes at our disposable from the neopixel library installed on arduino. We settled on using t
 #### sound
 ## costume
 ## issues and troubleshooting
 #### Wheel screws and base extensions
 #### Sound issues
 #### crow beak and neck
+- After testing it out, we realized that the paper clip kept moving around, causing the whole upper beak to be misaligned with the  
 #### movement speed
