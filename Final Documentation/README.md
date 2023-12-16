@@ -5,6 +5,14 @@
 - we then attached the motor by again screwing bolts between the motor and bracket.
 - we then soldered the wires connecting the motors to the arduino so that they would go all the way around.
 - we ziptied the H bridge and placed the wheels on the motor by using bolts and metal hubs. we made sure to screw it very tightly so that any movement would be due to the code as opposed to a loosely attached wheel
+![](268612537-9ae42b9b-f3b8-4e72-bcc1-9490376f01f6.jpeg)
+![](268612567-710b4971-9cd4-4fe2-8b31-ca34a15dea80.jpg)
+![](268612614-9bc611b1-8ebb-4499-959e-392ba5df740a.jpg)
+![](268612669-6b933789-c100-416b-aed4-12b7ea044ac9.jpg)
+![](268612751-57803e9e-3ae1-455d-99a8-0a732f79cde7.jpg)
+![](278889620-2aac9599-8d0a-461f-897d-b457c0839ad3.jpg)
+![](crow.mov)
+![]()
 ## script and character
 - After settling on the robo-love island concept for the play, we got to thinking on which character would bring the most interesting story to the table.
 - We were adamant to have our robot be different in that it does not come from a wealthy or urban family, as to introduce some diversity into the cast.
