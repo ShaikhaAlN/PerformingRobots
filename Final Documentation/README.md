@@ -10,8 +10,7 @@
 ![](268612614-9bc611b1-8ebb-4499-959e-392ba5df740a.jpg)
 ![](268612669-6b933789-c100-416b-aed4-12b7ea044ac9.jpg)
 ![](268612751-57803e9e-3ae1-455d-99a8-0a732f79cde7.jpg)
-![](278889620-2aac9599-8d0a-461f-897d-b457c0839ad3.jpg)
-![](crow.mov)
+
 ![]()
 ## script and character
 - After settling on the robo-love island concept for the play, we got to thinking on which character would bring the most interesting story to the table.
@@ -21,6 +20,7 @@
 - The main parts we focused on when it came to the script was allowing her country side to shine, giving her some goofy lines that contrast heavily with the uptightness of Magnus.
 - Words like "partner" and "Folks" keep her endearing to the audience, and the references to country slang such as "June bug" and "Bayou" add some spring to her dialogue. However, we still made sure to keep reminding the audience that shes a robot with references to "short circuiting" and being "programmed".
 ## character design
+![](278889620-2aac9599-8d0a-461f-897d-b457c0839ad3.jpg)
 - Building off of the country theme, we were inspired by the wizard of Oz to make our robot look like a scarecrow. After looking up several images of typical scarecrows, we came up with the design below:
 - (insert image here)
 - We felt like the design was feasible for the timeline we had to complete all the mechanics and aesthetics, as many of the outward components consisted of clothes we already had or could make, and costume props we could burrow from the costume or textile studio.
@@ -42,7 +42,10 @@
 - For the crows beak, we used a small servo motor and followed a youtube tutorial on how to create a mouth that opend and closes. We used a paper clip and bent it into an s shape, with one side attaching to the servo motor, and the other inside the upper part of the crow's beak. we kept having to adjust the opening of the head to allow for the crow's beak to move in a very asnimated way that would show clearly from afar for the audience.
 #### crow neck
 - For the neck, we installed 1 piece of cardboard in the shape of a donut right at the top of the neck in order to contint the servo motor but have the turning piece peak out of the hole.
-- we then attached this turning piece to the head using glue gun. We had to position it right in the middle, and we did this by checking the coordinates of the full range of movement, find the mid point, and then glue the head on. 
+- we then attached this turning piece to the head using glue gun. We had to position it right in the middle, and we did this by checking the coordinates of the full range of movement, find the mid point, and then glue the head on.
+
+https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/1bb8c10b-36e8-47d6-9278-75e2eddc01e6
+
 #### head
 - for the robots head, we wanted something lightweight as anything heavier would weigh on the narrow stick and cause imbalance. So, we felt cardboard was a better material to work with than plywood.
 - We measured the appropriate dimensions of a rectangular box that would fit perfectly through the stick, and looked proportional to the arms. We then cut out two squares where the neopixel eyes would go, and after we made sure everything fit, we stuck all the sides together with the hot glue gun, and cut out a door from the back so that we could easily access the neopixels. We also kept the hole hole on the bottom of the head wider so that we could install a servo motor at the top that would allow the head to move slightly from left to right. Installing this was difficult as we stuck the servo motor to the stick and then put the cardboard head on top, so we werent able to see how well it lined up on the inside. However, after a few tries (and torn pieces of cardboard) later, we lined it up well and made sure to not move the servo motor dramatically as to not tear the hot glue.
@@ -52,6 +55,9 @@
 - Then, since we already had an almost finalized version of the play and script, we knew what kind of expressions we wanted to code and use for the interactions and reactions between the characters; eyeroll, sideeye, red eyes, fast blinking, and shocked eyes.
 - we coded these the same we we created the initial standard eyes; we manipulated the shapes frame by frame, and in the case of the red eyes, we changed the color of the pupils, and for the eyeroll we changed the position of the pupil and extended the duration of the delay.
 - to ensure that the animation would work on both eyes exact, we did not daisy-chain the two matrices, but instead treated them like two seperate units in the code. We did this by labelling them "matrix1" and "matrix2" and just duplicating the code. This was much easier than trying to work with the coordinates of two combined matrices.
+
+https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/d8daf45c-e718-4708-91cd-c73530718264
+
 #### sound
 - At first, we thought of recording the voice of Emma-Lou ourselves, but then decided against it for a number of reasons. We felt that the audio may contain a lot of noise, would be inconcistent in overall volume, and would be difficult to make clear and legible. So, we instead used the AI text to speech software ElevenLabs. We wanted the voice to sound enthusiaistic, so we went with a young adult with an american accent, and fed all the lines into the software with exagerated punctuation marks to accentuate some of the dialogue. After we had the sounds, we created a case for every line (leaving us with 9 in total) and imbedded the sounds alongside the codes for the neopixels and servo motors. We were able to sync up the movements and sounds perfectly through the delay() function, which then allowed us to consolidate the amount of cases we had. 
 ## costume
