@@ -61,9 +61,15 @@ https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/d8daf45c-e718-470
 #### sound
 - At first, we thought of recording the voice of Emma-Lou ourselves, but then decided against it for a number of reasons. We felt that the audio may contain a lot of noise, would be inconcistent in overall volume, and would be difficult to make clear and legible. So, we instead used the AI text to speech software ElevenLabs. We wanted the voice to sound enthusiaistic, so we went with a young adult with an american accent, and fed all the lines into the software with exagerated punctuation marks to accentuate some of the dialogue. After we had the sounds, we created a case for every line (leaving us with 9 in total) and imbedded the sounds alongside the codes for the neopixels and servo motors. We were able to sync up the movements and sounds perfectly through the delay() function, which then allowed us to consolidate the amount of cases we had. 
 ## costume
-- based on our mechanics and character design, we decided that the main parts of the costuming can be made out of fabric and existing materials we had. We used a flannel we already had for the top Emma-Lou is wearing, and we contacted the head of the textile studio, so that we could burrow some jean fabric for the skirt. We then also gained access to the costume store
+- based on our mechanics and character design, we decided that the main parts of the costuming can be made out of fabric and existing materials we had. We used a flannel we already had for the top Emma-Lou is wearing, and we contacted the head of the textile studio, so that we could burrow some jean fabric for the skirt. We then also gained access to the costume store and burrowed the faux-straw, and hat, and bought the long blonde wig from another costume store.
 ## issues and troubleshooting
+- we faced a few issues suring our process, outlined below.
 #### Wheel screws and base extensions
+- overtime our wheels kept loosening up (from the hob), so professor Shiloh suggested we switch out the small screws with bigger ones, which we were able to tighten much better, and rely on for the rest of the rehersals and final performance.
+- we also extended the front and back wheels as the robot kept falling over when moving. This provided a good sense of balance.
 #### crow beak and neck
-- After testing it out, we realized that the paper clip kept moving around, causing the whole upper beak to be misaligned with the  
+- After testing it out, we realized that the paper clip kept moving around, causing the whole upper beak to be misaligned with the bottom beak. We desided to tighten the 
 #### movement speed
+- when we first started testing out the movement, the speed was too fast, causing the robot to fall over, bumb into things, and causing damage to the motors, screws, and wheels. So we slowed down the speed by switching to analogpins and mapping the speed
+
+(all final codes are available in the repository; the [radio code](https://github.com/ShaikhaAlN/PerformingRobots/blob/main/Final%20Documentation/radio_Mon25Sep.ino) and the [transmitter reciever code] outlined in the [code](https://github.com/ShaikhaAlN/PerformingRobots/blob/main/Final%20Documentation/TransReciev.ino))
