@@ -68,7 +68,7 @@ https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/d8daf45c-e718-470
 - overtime our wheels kept loosening up (from the hob), so professor Shiloh suggested we switch out the small screws with bigger ones, which we were able to tighten much better, and rely on for the rest of the rehersals and final performance.
 - we also extended the front and back wheels as the robot kept falling over when moving. This provided a good sense of balance.
 #### crow beak and neck
-- After testing it out, we realized that the paper clip kept moving around, causing the whole upper beak to be misaligned with the bottom beak. We desided to tighten the 
+- After testing it out, we realized that the paper clip kept moving around, causing the whole upper beak to be misaligned with the bottom beak. We desided to tighten the the clip with another wire, and glued everything more securely. We then covered the bird with feathers to conceal any outstanding hardware.
 #### movement speed
 - when we first started testing out the movement, the speed was too fast, causing the robot to fall over, bumb into things, and causing damage to the motors, screws, and wheels. So we slowed down the speed by switching to analogpins and mapping the speed
 
