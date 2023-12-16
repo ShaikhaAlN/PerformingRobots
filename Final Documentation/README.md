@@ -72,4 +72,4 @@ https://github.com/ShaikhaAlN/PerformingRobots/assets/98512587/d8daf45c-e718-470
 #### movement speed
 - when we first started testing out the movement, the speed was too fast, causing the robot to fall over, bumb into things, and causing damage to the motors, screws, and wheels. So we slowed down the speed by switching to analogpins and mapping the speed
 
-(all final codes are available in the repository; the [radio code](https://github.com/ShaikhaAlN/PerformingRobots/blob/main/Final%20Documentation/radio_Mon25Sep.ino) and the [transmitter reciever code] outlined in the [code](https://github.com/ShaikhaAlN/PerformingRobots/blob/main/Final%20Documentation/TransReciev.ino))
+(all final codes are available in the repository; the [radio code](https://github.com/ShaikhaAlN/PerformingRobots/blob/main/Final%20Documentation/radio_Mon25Sep.ino) and the [transmitter reciever code](https://github.com/ShaikhaAlN/PerformingRobots/blob/main/Final%20Documentation/TransReciev.ino))
